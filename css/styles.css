@@ -1,14 +1,14 @@
-*{
-  box-sizing:border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-  padding:0;
-  margin:0;
+body {
+  padding: 0;
+  margin: 0;
 }
-#topper{
-  padding-top:26px;
-  padding-left:52px;
-  margin-bottom:0;
+#topper {
+  padding-top: 26px;
+  padding-left: 52px;
+  margin-bottom: 0;
 }
 .carousel-item {
   height: 80vh;
@@ -19,9 +19,9 @@ body{
   -o-background-size: cover;
   background-size: cover;
 }
-header{
-  position:relative;
-  bottom:8px;
+header {
+  position: relative;
+  bottom: 8px;
 }
 img {
 <<<<<<< HEAD
