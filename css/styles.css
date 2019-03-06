@@ -5,10 +5,11 @@ body {
   padding: 0;
   margin: 0;
 }
-#topper {
-  padding-top: 26px;
-  padding-left: 52px;
-  margin-bottom: 0;
+#topper{
+  padding-top:26px;
+  padding-left:52px;
+  margin-bottom:0;
+  font-size:18px;
 }
 .carousel-item {
   height: 80vh;
@@ -23,16 +24,51 @@ header {
   position: relative;
   bottom: 8px;
 }
-img {
-<<<<<<< HEAD
-  height: 100%;
-  width: 100%;
+#star{
+  text-align:center;
+  font-size:30px;
+  color:#650043;
+}
+#stars{
+  text-align:center;
+  font-size:24px;
+  width:62%;
+  margin:0 auto;
+  font-family: 'Goudy Bookletter 1911', serif;
+}
+.tro{
+  text-align:center;
+  padding:12px;
+}
+.tro:hover{
+  box-shadow:0px 0px 5px 0px #650000;
+  cursor:pointer;
+  border-radius:64px 64px 64px 64px;
+  color:#fff;
+  opacity:0.7;
+  background-color:#650000;
+  transition:.9s;
+}
+.tro:hover .fa{
+  color:orange;
+  transition:.9s;
+}
+.tro .fa{
+  margin-bottom:22px;
+  color:#650000;
+}
+#num{
+  margin-top:23px;
+}
+#round1{
+  border:none;
+  width:350px;
+  height:350px;
+  border-radius:175px;
+  overflow:hidden;
+  margin:0 auto;
+  box-shadow:0px 0px 5px 0px #000;
 }
 h1 {
   text-align: center;
 }
-=======
-  height:100%;
-  width:100%;
-}
->>>>>>> 092d6bcf9f16a35d306230bd7b4dd5f4821a33d3
