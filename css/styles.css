@@ -473,3 +473,7 @@ h5 {
   transform: scale(1.1);
   cursor: pointer;
 }
+.card-body img {
+  height: 100%;
+  width: 100%;
+}
