@@ -99,6 +99,33 @@ h1 {
   height: 400px;
   background-image: url("../images/all.jpeg");
   background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-size:cover;
+  opacity:0.7;
+}
+.trend{
+  border:none;
+  width:80%;
+  height:280px;
+  margin:0 auto;
+  background-color:#650000;
+  color:#fff;
+  margin-top:60px;
+  padding:22px;
+  opacity:0.9;
+  border-radius:3px;
+}
+.submit{
+  width:120px;
+  height:40px;
+  background-color:orange;
+}
+#team{
+  text-align:center;
+  font-size:42px;
+}
+.train{
+  display:grid;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.7;
@@ -208,6 +235,132 @@ h5 {
 #deal .box:hover .icon .fa {
   transition-delay: .5s;
 }
+#deal .box .details{
+  position:absolute;
+  top:0;
+  bottom:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  transform:translateY(100%);
+  transition:.5s;
+  width:100%;
+  height:100%;
+}
+#deal .box:hover .details{
+  transform:translateY(0);
+  cursor:pointer;
+}
+#deal #last{
+  border:none;
+}
+#deal #so{
+  font-size:24px;
+}
+#deal .fa{
+  color:#800000;
+}
+.sub{
+  color:#800000;
+  padding:5px 43px;
+  text-align:center;
+  background-color:#00ffff;
+  width:100%;
+  border-radius:4px;
+}
+#inside{
+  text-align:center;
+  border:none;
+  width:60%;
+  margin-left:234px;
+}
+#inside .fab{
+  border:none;
+  width:56px;
+  height:56px;
+  border-radius:28px;
+  margin-top:12px;
+  margin-left:22px;
+}
+.seen:hover{
+  box-shadow:0px 0px 8px 0px #000000;
+  cursor:pointer;
+}
+#just{
+  color:#ffffff;
+  font-size:28px;
+  padding-top:12px;
+}
+#carl{
+  color:white;
+  text-align:center;
+  margin-top:29px;
+  font-size:18px;
+}
+.icon, .fa{
+  font-size:42px;
+}
+#round1{
+  transition:1s;
+  filter:grayscale(100%);
+}
+#round1:hover{
+  filter:grayscale(0);
+  transform:scale(1.1);
+  cursor:pointer;
+}
+.last{
+  visibility:hidden;
+  width:240px;
+  height:260px;
+  background:#650000;
+  opacity:0.9;
+  color:#fff;
+  text-align:center;
+  padding:0px 0px;
+  position:absolute;
+  z-index:1;
+  bottom:100%;
+  font-size:24px;
+}
+.may, .jan, .apr, .feb{
+  position:relative;
+  display:inline-block;
+  border:none;
+  width:240px;
+  height:354px;
+  overflow:hidden;
+  box-shadow:0px 0px 6px 0px #650000;
+}
+.may:hover .last{
+  visibility:visible;
+  bottom:0%;
+  transition:.9s;
+  height:94px;
+}
+.jan:hover .last{
+  visibility:visible;
+  bottom:0%;
+  transition:.9s;
+  height:94px;
+}
+.apr:hover .last{
+  visibility:visible;
+  bottom:0%;
+  transition:.9s;
+  height:94px;
+}
+.feb:hover .last{
+  visibility:visible;
+  bottom:0%;
+  transition:.9s;
+  height:94px;
+}
+#uni{
+  color:orange;
+  font-size:24px;
+  padding-top:24px;
+}
 
 #deal .box .details {
   position: absolute;
@@ -296,7 +449,3 @@ h5 {
   cursor: pointer;
 }
 
-img {
-  height: 100%;
-  width: 100%;
-}
