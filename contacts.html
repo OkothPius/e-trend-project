@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <!-- Font Awesome -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <!-- Bootstrap core CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/contacts.css">
   <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet">
-    <title>Document</title>
+  <title>CONTACT FORM</title>
 </head>
+
 <body>
-   <!--Navbar -->
-   <nav id="topper" class="mb-1 navbar navbar-expand-lg navbar-dark bg-dark">
+  <!--Navbar -->
+  <nav id="topper" class="mb-1 navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">E-Trends</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -24,7 +26,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home
+          <a class="nav-link" href="index.html">Home
             <span class="sr-only">(current)</span>
           </a>
         </li>
@@ -32,7 +34,7 @@
           <a class="nav-link" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="contacts.html">Contact</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Men
@@ -41,7 +43,7 @@
             <a class="dropdown-item" href="msuits.html">Suits</a>
             <a class="dropdown-item" href="mshoes.html">Shoes</a>
             <a class="dropdown-item" href="mhairstyle.html">Hairstyle</a>
-            <a class="dropdown-item" href="msunglasses.html">Sunglasses</a>
+            <a class="dropdown-item" href="">Sunglasses</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -51,7 +53,7 @@
             <a class="dropdown-item" href="wsuits.html">Suits</a>
             <a class="dropdown-item" href="wshoes.html">Shoes</a>
             <a class="dropdown-item" href="whairstyle.html">Hairstyle</a>
-            <a class="dropdown-item" href="wsunglasses.html">Sunglasses</a>
+            <a class="dropdown-item" href="#">Sunglasses</a>
           </div>
         </li>
       </ul>
@@ -75,52 +77,32 @@
     </div>
   </nav>
   <!--/.Navbar -->
-  <div class="container-fluid">
-      <div class="jumbotron">
-          <h1>WOMEN SHOES</h1>
-      </div>
-      <div class="row">
-          <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-            <img src="images/pexels-photo-1474451.jpeg" alt="">
-        </div>
-
-        </div>
-          <div class="col-md-6">
-            <div class="card">
-
-          </div>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-md-6">
-            <div class="card">
-
-            </div>
-          </div>
-          <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-            <img src="images/pexels-photo-112285.jpeg" alt="">
-          </div>
-          </div>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-            <img src="images/pexels-photo-266840.jpeg" alt="">
-          </div>
-          </div>
-        </div>
-          <div class="col-md-6">
-            <div class="card"></div>
-          </div>
-      </div>
+  <div class="container tact">
+  <div class="well">
+    <h1>CONTACT FORM</h1>
   </div>
-  <!-- JQuery -->
+  <div class="container-fluid">
+    <form id="address">
+      <div class="form-group"><label for="address1"></label>
+        <input id="contact1" placeholder="NAME*" type="text" name="user_name" class="form-control" required />
+      </div>
+      <div class="form-group"><label for="address2"></label>
+        <input id="contact2" placeholder="EMAIL*" type="text" name="user_email" class="form-control" required />
+      </div>
+      <div class="form-group"><label for="address3"></label>
+        <input id="contact3" placeholder="Phone number*" type="text" name="user_phone" class="form-control" required />
+      </div>
+      <div class="form-group"><label for="address4"></label>
+        <textarea id="contact3" name="user_message" type="text" placeholder="MESSAGE*" class="form-control"></textarea>
+      </div>
+      <button type="submit" class="btn btn-success sub" onclick="submitClick( )">SEND</button>
+
+    </form>
+  </div>
+  </div>
+
+</body>
+<!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
@@ -128,5 +110,6 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/js/mdb.min.js"></script>
-</body>
+<script src="js/scripts.js"></script>
+
 </html>
